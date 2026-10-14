@@ -51,11 +51,11 @@ export const HELPLINE = {
 
 export const ADDRESS = {
   line1: "Chelipura, Naralibag",
-  line2: "Chhatrapati Sambhajinagar",
+  line2: "Chhatrapati Sambhajinagar(Aurangabad)",
   state: "Maharashtra",
   postalCode: "431001",
   country: "IN",
-  full: "Chelipura, Naralibag, Chhatrapati Sambhajinagar, Maharashtra 431001",
+  full: "Chelipura, Naralibag, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra 431001",
 } as const;
 
 /**
@@ -77,7 +77,7 @@ export const HOURS = {
 export const GEO: { latitude: number; longitude: number } | null = null;
 
 const MAP_QUERY = encodeURIComponent(
-  "Sana Medical Swast Aushadi Seva, Chelipura, Naralibag, Chhatrapati Sambhajinagar, Maharashtra 431001",
+  "Sana Medical Swast Aushadi Seva, Chelipura, Naralibag, Chhatrapati Sambhajinagar(Aurangabad), Maharashtra 431001",
 );
 
 export const MAPS = {

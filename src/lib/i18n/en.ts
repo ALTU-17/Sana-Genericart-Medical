@@ -173,7 +173,7 @@ export const en = {
 
   gallery: {
     eyebrow: "Look inside",
-    title: "A small shop, seriously stocked",
+    title: "Always stocked",
     lead: "Teal cabinets, packed shelves, and everything arranged so it can be found in a minute.",
     openHint: "Tap a photo to enlarge",
     items: [
@@ -301,6 +301,12 @@ export const en = {
     rights: "All rights reserved.",
     disclaimer: "Medicines are dispensed against a valid prescription wherever the law requires one. This website is for information only and is not a substitute for a doctor's advice.",
     credit: "Website designed and built for Sana Medical.",
+    developer: {
+      label: "Developed by",
+      portfolio: "Portfolio",
+      phone: "Phone",
+      email: "Email",
+    },
   },
 };
 

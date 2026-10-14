@@ -82,7 +82,7 @@ async function buildOgCover() {
     <text x="84" y="530" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28"
           font-weight="600" fill="#ffffff">97666 63011 &#183; 099213 72011</text>
     <text x="84" y="572" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24"
-          fill="#CFF6F2">Chelipura, Naralibag, Chhatrapati Sambhajinagar 431001 &#183; Open 10 am - 12 am</text>
+          fill="#CFF6F2">Chelipura, Naralibag, Chhatrapati Sambhajinagar (Aurangabad) 431001 &#183; Open 10 am - 12 am</text>
   </svg>`;
 
   const output = path.join(OUT_PUBLIC, "og-cover.jpg");

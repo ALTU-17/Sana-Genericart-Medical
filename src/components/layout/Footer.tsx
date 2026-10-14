@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import {
   ArrowUpRight,
   Clock,
+  Code2,
+  Mail,
   MapPin,
   MessageCircle,
   Phone,
@@ -179,6 +181,41 @@ export function Footer() {
               © {year} {STORE.legalName}. {t.footer.rights}
             </p>
             <p>{t.footer.credit}</p>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-3 pt-4 text-brand-100/60">
+            <a
+                href="https://altamash-shaikh-portfolio.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-paper/60 no-underline transition-colors duration-300 hover:text-gold-300"
+                aria-label="Visit developer portfolio"
+              >
+                <Code2 className="h-3.5 w-3.5 text-[#C89B3C]" />
+                <span>Developed by: ALTAMASH SHAIKH</span>
+              </a>
+
+            <span className="w-px h-3 bg-white/10" />
+
+            <a
+              href="tel:+919766220055"
+              className="flex items-center gap-1 hover:text-[#C89B3C] transition-colors duration-300 no-underline"
+              aria-label="Call developer"
+            >
+              <Phone className="w-3 h-3 text-[#C89B3C]" />
+              <span>+91 9766220055</span>
+            </a>
+
+            <span className="w-px h-3 bg-white/10" />
+
+            <a
+              href="mailto:skaltamsh789@gmail.com"
+              className="flex items-center gap-1 hover:text-[#C89B3C] transition-colors duration-300 no-underline"
+              aria-label="Email developer"
+            >
+              <Mail className="w-3 h-3 text-[#C89B3C]" />
+              <span>skaltamsh789@gmail.com</span>
+            </a>
           </div>
         </div>
       </div>
