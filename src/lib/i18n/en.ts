@@ -6,7 +6,7 @@
  */
 export const en = {
   meta: {
-    title: "Sana Medical | Generic Medicine Store in Chhatrapati Sambhajinagar",
+    title: "Sana Medical | Generic Medicine Store in Chhatrapati Sambhajinagar (Aurangabad)",
     description:
       "Sana Medical, Swast Aushadi Seva - a generic medicine store at Chelipura, Naralibag, Chhatrapati Sambhajinagar (Aurangabad). Generic medicines at 30-70% off, baby care, supplements, surgicals and free home delivery. Open 10 am to 12 am, every day.",
     ogAlt: "Sana Medical - generic medicine store, Chelipura, Chhatrapati Sambhajinagar (Aurangabad)",
@@ -273,7 +273,7 @@ export const en = {
       },
       {
         q: "Do you deliver?",
-        a: "We deliver free in and around Chelipura and Naralibag, and across most of Chhatrapati Sambhajinagar for larger orders. Call the store once to confirm your area.",
+        a: "We deliver free in and around Chelipura and Naralibag, and across most of Chhatrapati Sambhajinagar (Aurangabad) for larger orders. Call the store once to confirm your area.",
       },
       {
         q: "Do I need a prescription?",
